@@ -1,0 +1,411 @@
+<html lang="en">
+    <!--Head is for setting and configuration of your website/html-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5ab52ee6d8.js" crossorigin="anonymous"></script>
+    <!-- <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> load all styles -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+
+    <title>Web page</title>
+</head>
+
+
+<header>
+
+  <nav class="navbar">
+    <p>Silvi</p>
+    <div class="heart"></div>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#main-content">About me</a>
+    <a href="#myform">Contact</a>
+    
+  </nav>
+</header>
+
+
+<button id="btn-back-to-top"><i class="fas fa-angle-double-up"></i></button>
+
+
+<body>
+<div id="container">
+
+    <div id="first-image" class="clearfix">
+    
+       <blockquote>
+        <p>
+         Hi there, information about this page.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Dolorum, consectetur ullam. Ipsam praesentium rerum impedit 
+           laudantium in obcaecati similique, reprehenderit soluta dolorem 
+           porro doloribus minus, 
+           magni itaque ullam eveniet temporibus.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur a, dolorem est minima 
+           aut fuga deleniti nulla reprehenderit, amet autem incidunt debitis vitae at eveniet
+            illum sequi cumque deserunt expedita.</p>
+            <footer>—Silvia Morais, <cite>Stockholm, Sweden</cite></footer>
+          </blockquote>  
+        
+    </div>
+
+      <div id="projects"> 
+      <p>Projects</p>
+      </div>
+
+    <div class="projects clearfix">
+    
+     <div id="second-image">
+
+  <img src="styles/JavaScript.jpg"  alt="silvia">
+
+ <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Doloribus, eos laudantium id quasi quo libero reiciendis ipsa magnam cum quis corporis
+   impedit cupiditate voluptatem architecto 
+  vitae consectetur dolorem perspiciatis ipsum.</span> 
+
+    </div>
+
+  <div id="second-image2" class="clearfix">
+<img src="styles/css-html.jpg"  alt="silvia">
+<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Doloribus, eos laudantium id quasi quo libero reiciendis ipsa magnam cum quis corporis
+   impedit cupiditate voluptatem architecto 
+  vitae consectetur dolorem perspiciatis ipsum.</span> 
+</div>
+
+   <div id="second-image3" class="clearfix">
+  
+<img src="styles/node.png"  alt="silvia">
+<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Doloribus, eos laudantium id quasi quo libero reiciendis ipsa magnam cum quis corporis
+   impedit cupiditate voluptatem architecto 
+  vitae consectetur dolorem perspiciatis ipsum.</span> 
+
+    </div>
+  </div>
+</div>
+
+
+  <section class="main">
+    <div id="main-content">
+      <p>About me</p>
+       <span>Hi, My name is Silvia!<br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Aliquid cupiditate voluptate, inventore illo impedit eum 
+        nesciunt velit officiis rerum neque dolorem,
+        saepe eaque distinctio, 
+        dolorum iure enim accusantium corporis incidunt!
+       </span>
+  
+  <img src="styles/silvinha.jpg" alt="silvia">
+   </div>
+ </section>
+
+
+<div class="formular">
+      <p>Contact me</p>
+   
+      <form id="myform">
+        <fieldset>
+          <legend>Message:</legend>
+          
+          <label for="firstName">First Name:</label><br>
+          <input type="text" id="fnsme" placeholder="enter your name"><br>
+          
+          <label for="lastName">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="msg">Message:</label>
+          <textarea name="message" rows="10" cols="50"></textarea> 
+          
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+</div>
+  
+
+
+ 
+</body>
+
+
+ <footer class="footer">
+  <!-- <span>&#8613;</span>
+   <div class="arrow-up">
+     <a href="#home">
+     
+     </a>
+     <span>Back to Top</span>
+
+   </div> -->
+   
+<p>&copy;<script>document.write(new Date().getFullYear())</script> Silvia Morais</p>
+<p>Email: srj1213@gmail.com</p>
+ </footer>
+
+    <script src="script/main.js"></script>
+
+
+</html>
+
+<!----------
+
+<style>
+  .penguin {
+
+    /* Only change code below this line */
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+    /* Only change code above this line */
+
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+    background: var(--penguin-skin, gray);
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, gray);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+  .right-hand {
+    top: 0%;
+    left: -5%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .left-hand {
+    top: 0%;
+    left: 75%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .right-cheek {
+    top: 15%;
+    left: 35%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    top: 60%;
+    left: 2.5%;
+    background: var(--penguin-belly, white);
+    width: 95%;
+    height: 100%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+  .left-feet {
+    top: 85%;
+    left: 25%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    z-index: -2222;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 15%;
+    background: white;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+  }
+
+  .blush-right {
+    top: 65%;
+    left: 15%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .blush-left {
+    top: 65%;
+    left: 70%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-top {
+    top: 60%;
+    left: 40%;
+    background: var(--penguin-beak, orange);
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-bottom {
+    top: 65%;
+    left: 42%;
+    background: var(--penguin-beak, orange);
+    width: 16%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  body {
+    background:#c6faf1;
+  }
+
+  .penguin * {
+    position: absolute;
+  }
+</style>
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+</div>
+
+------------------------
+  div{
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px,
+      blue 40px,
+      green 40px,
+      red 80px
+    );
+  }
+
+  *************HEART SHAPE******************
+  <style>
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+  }
+  .heart::after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content:"" ;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+</style>
+<div class="heart"></div>
+-->
